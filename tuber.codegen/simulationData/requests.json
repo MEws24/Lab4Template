@@ -1,0 +1,111 @@
+{
+    "Vienna Cabs Manager": [
+        {
+        	"rideId": 1,
+            "type": "ride",
+            "user": "C1",
+            "date": "2024-12-01T15:17:11",
+            "sharing": false,
+            "rideType": "motorbike",
+            "target": {
+                "x": 15,
+                "y": 26
+            },
+            "paymentType": "creditCard"
+        },
+        {
+        	"rideId": 2,
+            "type": "ride",
+            "user": "C5",
+            "date": "2024-12-01T15:17:11",
+            "sharing": false,
+            "rideType": "motorbike",
+            "target": {
+                "x": 12,
+                "y": 13
+            },
+            "paymentType": "creditCard"
+        },
+        {
+            "rideId": 3,
+            "type": "ride",
+            "user": "C4",
+            "date": "2024-12-01T15:17:11",
+            "sharing": true,
+            "rideType": "car",
+            "target": {
+                "x": 15,
+                "y": 26
+            },
+            "paymentType": "creditCard"
+        },
+        {
+            "rideId": 4,
+            "type": "ride",
+            "user": "C2",
+            "date": "2024-12-01T15:17:11",
+            "sharing": true,
+            "rideType": "car",
+            "target": {
+                "x": 8,
+                "y": 9
+            },
+            "paymentType": "cash"
+        },
+        {
+            "rideId": 5,
+            "type": "ride",
+            "user": "C3",
+            "date": "2024-12-01T15:18:23",
+            "sharing": false,
+            "rideType": "luxury",
+            "target": {
+                "x": 30,
+                "y": 30
+            },
+            "paymentType": "PayPal"
+        },
+        {
+        	"rideId": 2,
+            "type": "supportCall",
+            "user": "C5",
+            "date": "2024-12-01T15:19:11",
+            "issueText": "Rash and unsafe driving"
+        },
+        {
+        	"rideId": 2,
+            "type": "supportCall",
+            "user": "C5",
+            "date": "2024-12-01T15:20:11",
+            "issueText": "Issue Resolved"
+        }
+    ],
+    "Linz Cabs Manager": [
+        {
+        	"rideId": 3,
+            "type": "ride",
+            "user": "C7",
+            "date": "2024-12-01T15:17:11",
+            "sharing": false,
+            "rideType": "motorbike",
+            "target": {
+                "x": 15,
+                "y": 26
+            },
+            "paymentType": "PayPal"
+        },
+        {
+        	"rideId": 4,
+            "type": "ride",
+            "user": "C9",
+            "date": "2024-12-01T15:17:11",
+            "sharing": false,
+            "rideType": "car",
+            "target": {
+                "x": 18,
+                "y": 21
+            },
+            "paymentType": "cash"
+        }
+    ]
+}

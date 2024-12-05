@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tuber:TUber
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tuber="http://www.example.org/tuber"
+    name="Austrian Cab Services">
+  <agent name="Vienna Cabs Manager"
+      revenue="75.0">
+    <users xsi:type="tuber:Customer"
+        name="C2"
+        rating="3.6">
+      <location
+          lt="2"
+          lg="4"/>
+    </users>
+    <users xsi:type="tuber:Customer"
+        name="C1"
+        rating="4.6">
+      <location
+          lt="2"
+          lg="4"/>
+    </users>
+    <users xsi:type="tuber:Customer"
+        name="C3"
+        rating="4.9">
+      <location
+          lt="2"
+          lg="4"/>
+    </users>
+    <users xsi:type="tuber:Customer"
+        name="C4"
+        rating="4.6">
+      <location
+          lt="2"
+          lg="4"/>
+    </users>
+    <users xsi:type="tuber:Customer"
+        name="C5"
+        rating="3.6">
+      <location
+          lt="2"
+          lg="4"/>
+    </users>
+    <users xsi:type="tuber:Driver"
+        name="D1">
+      <location
+          lt="2"
+          lg="4"/>
+      <vehicle
+          name="Yamaha"
+          capacity="1"/>
+    </users>
+    <users xsi:type="tuber:Driver"
+        name="D2">
+      <location
+          lt="2"
+          lg="4"/>
+      <vehicle
+          name="Volkswagen"
+          type="CAR"
+          capacity="3"/>
+    </users>
+    <users xsi:type="tuber:Driver"
+        name="D3">
+      <location
+          lt="2"
+          lg="4"/>
+      <vehicle
+          name="Volkswagen"
+          type="CAR"
+          capacity="4"/>
+    </users>
+    <users xsi:type="tuber:Driver"
+        name="D4">
+      <location
+          lt="2"
+          lg="4"/>
+      <vehicle
+          name="Limousine"
+          type="LUXURY"
+          capacity="6"/>
+    </users>
+  </agent>
+  <agent name="Linz Cabs Manager"
+      city="LINZ">
+    <users xsi:type="tuber:Customer"
+        name="C7"
+        rating="4.6">
+      <location
+          lt="2"
+          lg="4"
+          city="LINZ"/>
+    </users>
+    <users xsi:type="tuber:Customer"
+        name="C9"
+        rating="4.9">
+      <location
+          lt="2"
+          lg="4"
+          city="LINZ"/>
+    </users>
+    <users xsi:type="tuber:Customer"
+        name="C6"
+        rating="4.6">
+      <location
+          lt="2"
+          lg="4"
+          city="LINZ"/>
+    </users>
+    <users xsi:type="tuber:Driver"
+        name="D5">
+      <location
+          lt="2"
+          lg="4"
+          city="LINZ"/>
+      <vehicle
+          name="Camry"
+          type="CAR"
+          capacity="1"/>
+    </users>
+    <users xsi:type="tuber:Driver"
+        name="D6">
+      <location
+          lt="2"
+          lg="4"
+          city="LINZ"/>
+      <vehicle
+          name="BMW"
+          type="CAR"
+          capacity="3"/>
+    </users>
+  </agent>
+</tuber:TUber>
